@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EFC870"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="190dp"
+        android:text="ABOUT US"
+        android:textColor="#00000C"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="367dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="496dp"
+        android:text="The Taj Hotel holds significant historical importance as it was built in 1903 by the Tata Group, one of India's leading business conglomerates, and it is one of the oldest luxury hotels in India."
+        android:textColor="#2A2A2E"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="372dp"
+        android:layout_height="195dp"
+        android:layout_marginBottom="300dp"
+        android:src="@drawable/room1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="405dp"
+        android:layout_height="185dp"
+        android:layout_marginBottom="104dp"
+        android:src="@drawable/pic2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/bckbutton"
+        android:layout_width="146dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/roundbutton"
+        android:text="Back"
+        android:textColor="@color/textColor"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/knowmorebutton"
+        android:layout_width="146dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/roundbutton"
+        android:text="Know More"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
